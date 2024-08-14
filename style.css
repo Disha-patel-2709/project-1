@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+background-image: url(assest2/image1.png);
+background-repeat: no-repeat;
+height: 100vh;
+background-size: max(1200px, 100vw);
+background-position: relative;
+background-attachment: fixed;
+
+}
+.img2{
+    background-image: url(assest2/image2.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: relative;
+    background-attachment: fixed;
+}
+.img3{
+    background-image: url(assest2/image3.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: relative;
+background-attachment: fixed;
+}
+.text{
+    position: relative;
+width: 100%;
+top: 50%;
+text-align: center;
+font-size: 27px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: black;
+}
+.textBg {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+   }  
+   .bg{
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+   }
+
+.img p:first-child{
+    text-align: center;
+    font-size: 40px;
+    /* font-weight: 200; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #313534;
+    text-transform: uppercase;
+
+}
+.section-light{
+    padding: 30px;
+    text-align: center;
+}
+
+.section-dark{
+    background-color: #313534;
+    color: white;
+   padding: 30px;
+   text-align: center;
+ 
+}
+.section-dark p:first-child{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+
